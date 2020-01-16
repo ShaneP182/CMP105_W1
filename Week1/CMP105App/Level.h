@@ -21,4 +21,14 @@ private:
 
 	sf::RectangleShape rect;
 	sf::CircleShape circle;
+
+	sf::RectangleShape smallRectangle;
+	sf::RectangleShape mediumRectangle;
+	sf::RectangleShape largeRectangle;
+
+	sf::Font font;
+	sf::Text text;
+
+	sf::RectangleShape cornerRectangle;
+	sf::Vector2u bottomRightCorner;
 };
